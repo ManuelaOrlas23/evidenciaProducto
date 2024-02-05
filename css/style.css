@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+
+}
+
+.lateral {
+    width: 400px;
+    height: 1000px;
+    background-image: linear-gradient(90deg, #379dd1 10%, #2521b5 90%);
+
+}
+
+.lateral img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.lateral p {
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.lateral h1 {
+    width: 280px;
+    margin-top: 45px;
+    margin-left: 50px;
+    background-image: linear-gradient(90deg, #9c36d1 10%, #216db5 90%);
+    padding: 10px;
+    border-radius: solid;
+
+}
+
+.lateral ul {
+    margin-top: 25px;
+    margin-left: 100px;
+    color: white;
+    
+}
+
+.lateral h3 {
+    width: 260px;
+    margin-top: 30px;
+    margin-left: 70px;
+    border-bottom: 5px solid #fdf9f6;
+}
+
+.lateral h4 {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.contenido {
+    text-align: center;
+    flex: 1;
+    flex-direction: column; /* Apila los elementos en una columna*/
+    align-items: center; 
+}
+
+.contenido h1 {
+    margin: 0;
+    font-size: 80px;
+    line-height: 1.5;
+    margin-right: 600px;
+
+}
+
+.contenido h3{
+    text-align: left;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 25px;
+    
+}
+
+.contenido h4{
+    text-align: left;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 40px;
+    font-size: 25px;
+    border-bottom: 5px solid #66c8f6;
+    width: 700px;
+
+}
+
+.contenido section{
+    text-align: left;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.contenido h5{
+    font-size: 20px;
+}
+
+.contenido p{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.contenido li{
+    margin-top: 15px;
+}
+.h5{
+    margin-top: 30px;
+}
+
+.titulo2{
+    margin-top: 30px;
+}
+
+.contenido h4{
+    margin-top: 35px;
+}
+
+
+.contenido div{
+    text-align: left;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 40px; 
+}
